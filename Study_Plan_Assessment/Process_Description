@@ -1,0 +1,24 @@
+After the enrolment into the two-year program for the MSc in Engineering in Management
+Science, students must prepare and submit a study plan indicating the university courses they
+wish to attend. The review and approval of the study plan is performed in an off-line modality by a
+dedicated commission, which usually includes one or more professors appointed by the University.
+The review and acceptance/rejection of a study plan is managed through a dedicated web-based
+reviewing system, which provides a database containing all the study plans uploaded by the
+students over time and that are waiting to be approved. Two kinds of study plans are recorded in
+the database:
+- Newly submitted study plans (never approved before);
+- Already approved study plans that need to be re-evaluated due to updates (for example,
+course changes) requested by the students.
+A commission member accesses occasionally to the reviewing system. After performing the login
+procedure, the member retrieves the study plans. For each newly submitted study plan, the
+member assesses it from a scientific and technical point of view. On the contrary, in the case of a
+study plan to be re-evaluated, a member must retrieve the specific student’s request of updating
+stored in the study plans database and approve or reject it. The approval/rejection of a student
+request will be reflected by updating the study plan’s database. If a new (or updated) study plan is
+deemed eligible, it will be immediately approved (by updating the study plan’s DB) and a
+notification is sent to the student who submitted it. On the other hand, if the commission member
+proposes its rejection, a reason must be provided as part of the rejection notification sent to the
+student. After all the study plans have been assessed, the member performs the logout from the
+system and the process completes. Note the reviewing system enables the assessment of study
+plans maximum for 1 hour per day. After this time, the system aborts any reviewing activity in
+progress.
