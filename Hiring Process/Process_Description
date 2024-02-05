@@ -1,0 +1,25 @@
+Consider the following procedure enacted by a company for hiring new employees. When a new
+job position is opened, the Hiring Team of the company creates a job advertisement that is posted
+on a public database called “Jobs Tracking DB”. Many candidates can apply for the position within
+30 days since the job advertisement posting. After this period, the Hiring Team checks the “Jobs
+Applications DB” to look for candidates that have applied for the position. If no candidate has
+applied, the Hiring Team posts the job advertisement again (and wait -- again -- for 30 days before
+checking the “Jobs Applications DB”). This “loop” is repeated until at least one candidate applies to
+the position. If this is the case, the Evaluation Team of the company starts searching the best
+candidates for the job position.
+Specifically, for each candidate retrieved from the “Jobs Applications DB”, an evaluation process
+starts. Given a specific candidate, two different members of the Evaluation Team assess the CV
+and the motivation letter separately. If the CV and the motivation letter are deemed adequate, a
+personal interview is performed with the candidate. If not, the application is rejected, the
+candidate is notified via email, and the evaluation process moves to the next candidate. After
+having interviewed the candidate, the Evaluation Team can decide to reject the application of the
+candidate (also in this case a notification of rejection is sent to the candidate) or to make her a job
+offer via email. If the Evaluation Team does not receive - within 3 days – any acceptance
+notification by the candidate, her application is automatically rejected, and the evaluation process
+moves to the next candidate. If the candidate accepts the job offer, the Evaluation Team closes
+the job position by updating the “Jobs Tracking DB” and aborts all the evaluations in progress.
+When there is a candidate that has accepted the job offer, the control passes to the Hiring Team
+that finalizes the process by sending a contract to the candidate.
+Note that, after the evaluation process is started, if the hiring team does not receive - within 3
+months - any notification of a candidate that has accepted the job offer, the job position is closed,
+and the entire hiring process is aborted.
